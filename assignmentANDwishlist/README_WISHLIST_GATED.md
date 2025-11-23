@@ -101,13 +101,7 @@ SECRET SANTA STATUS
 ### Step 2: Collect New Wishlists
 
 ```python
-from santa_wishlist_gated import check_wishlists
-
-# Test first
-check_wishlists(dry_run=True)
-
-# Actually collect
-check_wishlists(dry_run=False)
+python collect_safe.py
 ```
 
 This checks your Gmail inbox for replies and saves them.
