@@ -44,8 +44,7 @@ Shows who responded WITHOUT revealing assignments!
 
 ### 3. Collect Wishlists (Daily)
 ```python
-from santa_wishlist_gated import check_wishlists
-check_wishlists(dry_run=False)
+python collect_safe.py
 ```
 
 ### 4. Send Assignments (When Ready)
