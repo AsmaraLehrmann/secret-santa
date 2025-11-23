@@ -73,8 +73,8 @@ You'll see:
 
 #### 7. Collect Wishlists (5 seconds)
 ```python
-from santa_wishlist_gated import check_wishlists
-check_wishlists(dry_run=False)
+# Collect wishlists (daily)
+python collect_safe.py
 ```
 
 Output:
